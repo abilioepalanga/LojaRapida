@@ -44,7 +44,7 @@ function App() {
     );
 }
 const StyledLink = styled.div`
-    color: #bf4f74;
+    color: #ba4f74;
     font-weight: bold;
 `;
 export default App;
