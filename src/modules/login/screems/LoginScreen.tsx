@@ -1,16 +1,13 @@
 import { BackgroundImage } from "../styles/loginScreen.styles";
 import { LoginContainer } from "../styles/loginScreen.styles";
+import { Container } from "../styles/loginScreen.styles";
 
 const LoginScreen = () => {
     return (
-        <div>
-            <div>
-                <BackgroundImage src="./background.png" />
-            </div>
-            <div>
-                <LoginContainer />
-            </div>
-        </div>
+        <Container>
+            <BackgroundImage src="./background.png" alt="Fundo" />
+            <LoginContainer>{/* Conteúdo do Login */}</LoginContainer>
+        </Container>
     );
 };
 
