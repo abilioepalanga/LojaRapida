@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const BackgroundImage = styled.img`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100vh;
     width: 100vw;
 `;
