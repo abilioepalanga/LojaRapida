@@ -1,11 +1,10 @@
 import { BoxInput, TitleInput, InputText, Title_login } from "./input.styles";
-
+import { Button } from "../../../shared/buttons/button/Button";
 import {
     UserOutlined,
     EyeInvisibleOutlined,
     EyeTwoTone,
 } from "@ant-design/icons";
-import { Button, Space } from "antd";
 
 const Input = () => {
     return (
@@ -23,6 +22,7 @@ const Input = () => {
                 size="large"
                 placeholder="Digite a  sua senha"
             />
+            <Button />
         </BoxInput>
     );
 };
