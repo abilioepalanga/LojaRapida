@@ -1,6 +1,11 @@
 import { Input as InputText } from "antd";
 import { BoxInput, TitleInput } from "./input.styles";
-import { UserOutlined } from "@ant-design/icons";
+import {
+    UserOutlined,
+    EyeInvisibleOutlined,
+    EyeTwoTone,
+} from "@ant-design/icons";
+import { Button, Space } from "antd";
 
 const Input = () => {
     return (
@@ -11,6 +16,9 @@ const Input = () => {
                 placeholder="Digite o seu nome"
                 prefix={<UserOutlined />}
             />
+
+            <TitleInput>Senha</TitleInput>
+            <InputText.Password size="large" placeholder="input password" />
         </BoxInput>
     );
 };
