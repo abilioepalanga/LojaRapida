@@ -35,3 +35,13 @@ export const InputText_Pass = styled(AntdInput.Password)`
     /* Pode definir um valor máximo, se necessário */
     width: 100%;
 `;
+
+export const TitleFinal = styled.h4`
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 21px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+`;

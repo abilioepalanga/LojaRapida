@@ -32,7 +32,6 @@ export const LoginContainer = styled.div`
     z-index: 1; /* Garante que o container esteja acima da imagem de fundo */
     backdrop-filter: blur(5px); /* Aplica um desfoque de 5px */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Borda sutilmente visível */
-
     align-items: center;
     justify-content: center;
 `;

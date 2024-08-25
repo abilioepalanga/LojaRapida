@@ -4,6 +4,7 @@ import {
     InputText,
     Title_login,
     InputText_Pass,
+    TitleFinal,
 } from "./input.styles";
 import { Button } from "../../../shared/buttons/button/Button";
 import {
@@ -26,6 +27,7 @@ const Input = () => {
             <TitleInput>Senha</TitleInput>
             <InputText_Pass size="large" placeholder="Digite a  sua senha" />
             <Button />
+            <TitleFinal> Não tem conta?</TitleFinal>
         </BoxInput>
     );
 };
