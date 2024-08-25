@@ -1,5 +1,5 @@
-import { Input as InputText } from "antd";
-import { BoxInput, TitleInput } from "./input.styles";
+import { BoxInput, TitleInput, InputText } from "./input.styles";
+
 import {
     UserOutlined,
     EyeInvisibleOutlined,
@@ -18,7 +18,10 @@ const Input = () => {
             />
 
             <TitleInput>Senha</TitleInput>
-            <InputText.Password size="large" placeholder="input password" />
+            <InputText.Password
+                size="large"
+                placeholder="Digite a  sua senha"
+            />
         </BoxInput>
     );
 };
