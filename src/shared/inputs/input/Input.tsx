@@ -1,4 +1,4 @@
-import { BoxInput, TitleInput, InputText } from "./input.styles";
+import { BoxInput, TitleInput, InputText, Title_login } from "./input.styles";
 
 import {
     UserOutlined,
@@ -10,6 +10,7 @@ import { Button, Space } from "antd";
 const Input = () => {
     return (
         <BoxInput>
+            <Title_login>Login</Title_login>
             <TitleInput>Nome</TitleInput>
             <InputText
                 size="large"
