@@ -1,4 +1,10 @@
-import { BoxInput, TitleInput, InputText, Title_login } from "./input.styles";
+import {
+    BoxInput,
+    TitleInput,
+    InputText,
+    Title_login,
+    InputText_Pass,
+} from "./input.styles";
 import { Button } from "../../../shared/buttons/button/Button";
 import {
     UserOutlined,
@@ -18,10 +24,7 @@ const Input = () => {
             />
 
             <TitleInput>Senha</TitleInput>
-            <InputText.Password
-                size="large"
-                placeholder="Digite a  sua senha"
-            />
+            <InputText_Pass size="large" placeholder="Digite a  sua senha" />
             <Button />
         </BoxInput>
     );

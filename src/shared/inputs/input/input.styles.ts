@@ -27,9 +27,11 @@ export const Title_login = styled.h1`
 export const InputText = styled(AntdInput)`
     max-width: 320px; /* Aqui você define a largura desejada */
     /* Pode definir um valor máximo, se necessário */
+    width: 100%;
 `;
 
-export const InputPassword = styled(AntdInput)`
+export const InputText_Pass = styled(AntdInput.Password)`
     max-width: 320px; /* Aqui você define a largura desejada */
     /* Pode definir um valor máximo, se necessário */
+    width: 100%;
 `;
