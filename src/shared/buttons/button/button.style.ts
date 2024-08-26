@@ -13,6 +13,6 @@ export const ButtonAtd = styled(Button)`
     margin-bottom: 20px;
     border: none;
     &:hover {
-        background-color: #45a049;
-    }
+        background-color: #45a009;
+
 `;
