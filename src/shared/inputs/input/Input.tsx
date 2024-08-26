@@ -26,6 +26,10 @@ const Input = () => {
         setPassword(e.target.value);
     };
 
+    const handleLogin = () => {
+        alert(`Email: ${email} - Senha: ${password}`);
+    };
+
     return (
         <BoxInput>
             <Title_login>Login</Title_login>
@@ -45,7 +49,7 @@ const Input = () => {
                 onChange={handlePasswordChange}
                 value={password}
             />
-            <Button />
+            <Button onClick={handleLogin}>Entrar</Button>
             <TitleFinal> Não tem conta?</TitleFinal>
         </BoxInput>
     );

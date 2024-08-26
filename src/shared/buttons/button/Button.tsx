@@ -1,5 +1,9 @@
 import { ButtonAtd } from "./button.style";
 
-export const Button = () => {
-    return <ButtonAtd>Entrar</ButtonAtd>;
+interface ButtonProps {
+    onClick: () => void;
+    children: React.ReactNode;
+}
+export const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
+    return <ButtonAtd onClick={onClick}>{children}</ButtonAtd>;
 };
