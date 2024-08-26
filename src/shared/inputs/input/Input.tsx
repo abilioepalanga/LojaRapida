@@ -19,12 +19,12 @@ const Input = () => {
     const [password, setPassword] = useState("");
 
     const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
-        setEmail(e.target.value + "@gmail.com");
+        setEmail(e.target.value);
     };
 
-    // const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //     setPassword(e.target.value);
-    // };
+    const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setPassword(e.target.value);
+    };
 
     return (
         <BoxInput>
@@ -39,7 +39,12 @@ const Input = () => {
             />
 
             <TitleInput>Senha</TitleInput>
-            <InputText_Pass size="large" placeholder="Digite a  sua senha" />
+            <InputText_Pass
+                size="large"
+                placeholder="Digite a  sua senha"
+                onChange={handlePasswordChange}
+                value={password}
+            />
             <Button />
             <TitleFinal> Não tem conta?</TitleFinal>
         </BoxInput>
