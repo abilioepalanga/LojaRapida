@@ -1,7 +1,13 @@
 import styled from "styled-components";
 import { Input as AntdInput } from "antd";
 
-export const BoxInput = styled.div``;
+export const BoxInput = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+`;
 
 export const TitleInput = styled.h3`
     font-family: "Poppins", sans-serif;
@@ -18,7 +24,7 @@ export const Title_login = styled.h1`
     font-style: normal;
     font-weight: 1000;
     line-height: 21px;
-    font-size: 14px;
+    font-size: 44px;
     margin-bottom: 5px;
     color: white;
     height: 30px;
