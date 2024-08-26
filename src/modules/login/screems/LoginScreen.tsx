@@ -2,6 +2,7 @@ import { BackgroundImage } from "../styles/loginScreen.styles";
 import { LoginContainer } from "../styles/loginScreen.styles";
 import { Container } from "../styles/loginScreen.styles";
 import Input from "../../../shared/inputs/input/input";
+//import { Input } from "../../../shared/inputs/input/input";
 
 const LoginScreen = () => {
     return (
